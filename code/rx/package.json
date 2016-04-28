@@ -1,0 +1,14 @@
+{
+  "name": "rxjs_samples",
+  "version": "1.0.0",
+  "description": "RxJS 5 samples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yakov Fain",
+  "license": "MIT",
+  "dependencies": {
+    "rxjs-es": "^5.0.0-beta.6"
+  }
+}
