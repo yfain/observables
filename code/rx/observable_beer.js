@@ -26,7 +26,8 @@ Rx.Observable.from(beers)
 );
 
 
-observableBeers = Rx.Observable.from(beers)
+/*
+let observableBeers = Rx.Observable.from(beers)
     .filter(beer => beer.price < 8)
     .map(beer => beer.name + ": $" + beer.price);
 
@@ -35,4 +36,4 @@ observableBeers
         beer => console.log(beer),
         err => console.error(err),
         () => console.log("The sream is over")
-    );
+    );*/
