@@ -1,0 +1,48 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/yfain11/.nvm/versions/node/v6.1.0/bin/node',
+1 verbose cli   '/Users/yfain11/.nvm/versions/node/v6.1.0/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'restserver' ]
+2 info using npm@3.8.6
+3 info using node@v6.1.0
+4 verbose run-script [ 'prerestserver', 'restserver', 'postrestserver' ]
+5 info lifecycle observables@1.0.0~prerestserver: observables@1.0.0
+6 silly lifecycle observables@1.0.0~prerestserver: no script for prerestserver, continuing
+7 info lifecycle observables@1.0.0~restserver: observables@1.0.0
+8 verbose lifecycle observables@1.0.0~restserver: unsafe-perm in lifecycle true
+9 verbose lifecycle observables@1.0.0~restserver: PATH: /Users/yfain11/.nvm/versions/node/v6.1.0/lib/node_modules/npm/bin/node-gyp-bin:/Users/yfain11/Documents/Farata/presentations/Angular_Summit/code/angular2/node_modules/.bin:/Users/yfain11/.nvm/versions/node/v6.1.0/bin:/Users/yfain11/.nvm/versions/node/v6.1.0/bin:/Users/yfain11/dart/dart-sdk/bin:/Users/yfain11/dart/DartEditor.app/Contents/MacOS:/Users/yfain11/asciidoctor-epub3/bin:/Users/yfain11/gradle/bin:/usr/local/git/bin:/Users/yfain11/derby/bin:/Users/yfain11/.rbenv/versions/2.2.2:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin
+10 verbose lifecycle observables@1.0.0~restserver: CWD: /Users/yfain11/Documents/Farata/presentations/Angular_Summit/code/angular2
+11 silly lifecycle observables@1.0.0~restserver: Args: [ '-c', 'node build/auction_rest_server.js' ]
+12 silly lifecycle observables@1.0.0~restserver: Returned: code: 1  signal: null
+13 info lifecycle observables@1.0.0~restserver: Failed to exec restserver script
+14 verbose stack Error: observables@1.0.0 restserver: `node build/auction_rest_server.js`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/Users/yfain11/.nvm/versions/node/v6.1.0/lib/node_modules/npm/lib/utils/lifecycle.js:239:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (/Users/yfain11/.nvm/versions/node/v6.1.0/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:850:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
+15 verbose pkgid observables@1.0.0
+16 verbose cwd /Users/yfain11/Documents/Farata/presentations/Angular_Summit/code/angular2
+17 error Darwin 15.4.0
+18 error argv "/Users/yfain11/.nvm/versions/node/v6.1.0/bin/node" "/Users/yfain11/.nvm/versions/node/v6.1.0/bin/npm" "run" "restserver"
+19 error node v6.1.0
+20 error npm  v3.8.6
+21 error code ELIFECYCLE
+22 error observables@1.0.0 restserver: `node build/auction_rest_server.js`
+22 error Exit status 1
+23 error Failed at the observables@1.0.0 restserver script 'node build/auction_rest_server.js'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the observables package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     node build/auction_rest_server.js
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs observables
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls observables
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]

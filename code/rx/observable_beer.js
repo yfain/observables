@@ -1,4 +1,6 @@
-var beers = [
+"use strict";
+
+let beers = [
     {name: "Stella", country: "Belgium", price: 9.50},
     {name: "Sam Adams", country: "USA", price: 8.50},
     {name: "Bud Light", country: "USA", price: 6.50},
@@ -24,6 +26,14 @@ Rx.Observable.from(beers)
         err => console.error(err),
         () => console.log("The sream is over")
 );
+
+
+
+
+
+
+
+
 
 
 /*

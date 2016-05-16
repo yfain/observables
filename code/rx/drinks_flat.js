@@ -14,9 +14,9 @@ function getDrinks() {
 
     return Rx.Observable.create( observer => {
 
-            observer.next(beers);        // pushing the beer pallet
+            observer.next(beers);        // pushing the beer pallet (observable)
 
-            observer.next(softDrinks);   // pushing the soft drinks pallet
+            observer.next(softDrinks);   // pushing the soft drinks pallet (observable)
 
             observer.complete();
         }
@@ -40,7 +40,7 @@ getDrinks()
     );
 
 
-// Flatmap solution
+// flatMap() solution
 
 console.info("\n*** Unloading drinks with flatMap() ***\n");
 

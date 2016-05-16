@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "target": "ES5",
+    "outDir": "build"
+  },
+  "exclude": [
+    "client",
+    "app",
+    "node_modules",
+    "typings/main",
+    "typings/main.d.ts"
+  ]
+}
