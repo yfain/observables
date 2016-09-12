@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "postinstall": "typings install",
-    "start": "live-server --open=main_search.html",
+    "start": "live-server --open=observable_events.html",
     "bidserver": "node build/bids/bid_server.js",
     "restserver": "node build/auction-rest-server-angular.js"
   },

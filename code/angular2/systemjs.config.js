@@ -8,7 +8,7 @@ System.config({
 
       },
       packages: {
-        'app'                              : {main: 'main_search.ts', defaultExtension: 'ts'},
+        'app'                              : {main: 'observable_events.ts', defaultExtension: 'ts'},
         'rxjs'                             : {main: 'index.js'},
         '@angular/core'                    : {main: 'index.js'},
         '@angular/common'                  : {main: 'index.js'},
