@@ -4,21 +4,19 @@ import {StateService} from "../services/state-service";
 @Component({
     selector: 'product',
     template: `<div class="ebay">
-                <h2 >eBay component</h2>
-               Search criteria: {{searchFor}}
+                <h2 >eBay products</h2>
+               {{searchFor}}
                </div>`,
     styles: ['.ebay {background: cyan}']
 })
 export class EbayComponent {
     
-    searchFor: string;
+    searchFor: string = "\u00A0"; // initialize with a non-breaking JS space
 
-    constructor(state: StateService){
-
-        this.searchFor = state.searchCriteria;
+    constructor(private state: StateService){
         
         state.stateEvent
-            .subscribe(event => this.searchFor = event);
+            .subscribe(event => this.searchFor = "Searching for " + event);
 
     }
 }

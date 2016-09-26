@@ -9,6 +9,6 @@
   "author": "Yakov Fain",
   "license": "MIT",
   "dependencies": {
-    "rxjs-es": "^5.0.0-beta.6"
+    "rxjs-es": "5.0.0-beta.12"
   }
 }

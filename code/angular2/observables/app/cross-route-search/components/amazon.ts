@@ -2,23 +2,22 @@ import {Component} from '@angular/core';
 import {StateService} from "../services/state-service";
 
 @Component({
-    selector: 'product',
-    template: `<div class="ebay">
-                <h2 >eBay component</h2>
+    selector: 'amazon',
+    template: `<div class="amz">
+                <h2 >Amazon component</h2>
                Search criteria: {{searchFor}}
                </div>`,
-    styles: ['.ebay {background: cyan}']
+    styles: ['.amz {background: pink}']
 })
-export class EbayComponent {
-    
+export class AmazonComponent {
+
     searchFor: string;
 
-    constructor(state: StateService){
+    constructor(private state: StateService){
 
         this.searchFor = state.searchCriteria;
-        
+
         state.stateEvent
             .subscribe(event => this.searchFor = event);
-
     }
 }
