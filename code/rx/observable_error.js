@@ -37,6 +37,6 @@ getData()
     .map(beer => beer.name + ", " + beer.country)
     .subscribe(
         beer => console.log("Subscriber got " + beer),
-        err => console.error(err),
+        err => console.error( "Subscriber got error " + JSON.stringify(err)),
         () => console.log("The stream is over")
     );

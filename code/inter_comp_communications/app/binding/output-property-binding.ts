@@ -37,8 +37,7 @@ class PriceQuoterComponent {
     template: `
    <price-quoter (lastPrice)="priceQuoteHandler($event)"></price-quoter>
     <p>
-    Parent Component received: {{stockSymbol}} {{price | currency:'USD':true:'1.2-2'}}`,
-    directives: [PriceQuoterComponent]
+    Parent Component received: {{stockSymbol}} {{price | currency:'USD':true:'1.2-2'}}`
 })
 class AppComponent {
 

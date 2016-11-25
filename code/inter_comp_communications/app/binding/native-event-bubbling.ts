@@ -9,7 +9,7 @@ interface IPriceQuote {
 
 @Component({
   selector: 'price-quoter',
-  template: `PriceQuoter: {{stockSymbol}} \${{price}}`,
+  template: `PriceQuoter: {{stockSymbol}} {{price | currency:'USD':true:'1.2-2'}}`,
   styles:[`:host {background: pink;}`]
 })
 class PriceQuoterComponent {
@@ -21,13 +21,13 @@ class PriceQuoterComponent {
 
       let priceQuote: IPriceQuote = {
         stockSymbol: this.stockSymbol,
-        lastPrice: (100*Math.random()).toFixed(2)
+        lastPrice: 100*Math.random()
       };
 
       this.price = priceQuote.lastPrice;
 
       element.nativeElement
-          .dispatchEvent(new CustomEvent('last-price', {
+          .dispatchEvent(new CustomEvent('lastPrice', {
             detail: priceQuote,
             bubbles: true
           }));
@@ -38,11 +38,11 @@ class PriceQuoterComponent {
 @Component({
   selector: 'app',
   template: `
-    <div (last-price)="priceQuoteHandler($event)">
+    <div (lastPrice)="priceQuoteHandler($event)">
       <price-quoter></price-quoter>
     </div>
     <br>
-    AppComponent received: {{stockSymbol}} \${{price}}
+    AppComponent received in div: {{stockSymbol}} {{price | currency:'USD':true:'1.2-2'}}
   `
 })
 class AppComponent {

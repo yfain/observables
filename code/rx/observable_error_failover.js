@@ -35,7 +35,7 @@ function getData(){
 function emulateDelayInSeconds(seconds)
 {
     var e = new Date().getTime() + (seconds * 1000);
-    while (new Date().getTime() <= e) {} // just keep the CPU busy (blocking, I know it's bad)
+    while (new Date().getTime() <= e) {} // just keep the CPU busy
 }
 
 // The subscriber

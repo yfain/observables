@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent }  from './components/app.component';
 import {HomeComponent} from "./components/home";
 import {ProductDetailComponent} from "./components/product";
-import {LocationStrategy, HashLocationStrategy} from '@angular/common';
+import {LocationStrategy, HashLocationStrategy, APP_BASE_HREF} from '@angular/common';
 import {routing} from './components/app.routing';
 
 @NgModule({

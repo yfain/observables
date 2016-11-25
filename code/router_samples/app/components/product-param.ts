@@ -7,7 +7,7 @@ import {ActivatedRoute} from '@angular/router';
   styles: ['.product {background: cyan}']
 })
 export class ProductDetailComponentParam {
-  productID: string;
+  productID: number;
 
   constructor(route: ActivatedRoute) {
     this.productID = route.snapshot.params['id'];

@@ -16,11 +16,14 @@ const routes: Routes = [
     selector: 'app',
     template: `
         <a [routerLink]="['/']">Home</a>
-        <a [routerLink]="['/product', 1234]">Product Details</a> 
+        <a [routerLink]="['/product', productId]">Product Details</a> 
         <router-outlet></router-outlet>
     `
 })
-class AppComponent {}
+class AppComponent {
+    productId: number = 123;
+}
+
 
 @NgModule({
     imports:      [ BrowserModule, RouterModule.forRoot(routes)],

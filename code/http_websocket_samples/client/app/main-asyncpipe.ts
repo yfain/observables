@@ -5,7 +5,6 @@ import {HttpModule, Http} from '@angular/http';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 import 'rxjs/add/observable/empty';
-import 'rxjs/add/observable/from';
 import { Observable} from "rxjs/Observable";
 
 @Component({
@@ -16,26 +15,21 @@ import { Observable} from "rxjs/Observable";
        {{product.title}}
     </li>
   </ul>
-  
+  <h2>{{errorMessage}}</h2>
   `})
 class AppComponent {
 
   products: Observable<Array<string>>;
-  errorMessage: Observable;
+  errorMessage: string;
 
   constructor(private http: Http) {
 
-   this.products = this.http.get('/products')
+   this.products = this.http.get('/products111')
         .map(res => res.json())
         .catch( err => {
-                console.log("Can't get product details. Error code: %s, URL: %s ",  err.status, err.url)
-                let errors: Array = [];
-                errors.push("Can't get product details.");
-                //this.errorMessage = Observable.from(errors);
-                this.errorMessage =Observable.empty();
-                return this.errorMessage;
+                this.errorMessage =`Can't get product details from ${err.url}, error ${err.status} `;
+                return Observable.empty();
                 });
-
   }
 }
 

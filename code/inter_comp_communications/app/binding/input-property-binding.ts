@@ -33,7 +33,7 @@ class OrderComponent {
     template: `
     <input type="text" placeholder="Enter stock (e.g. AAPL)"  (change)="onInputEvent($event)">
     <br/>
-    <order-processor [stockSymbol]="stock" quantity="100"></order-processor>
+    <order-processor [stockSymbol]="stock" [quantity]="100"></order-processor>
   `
 })
 class AppComponent {

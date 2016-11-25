@@ -17,7 +17,7 @@ System.config({
         }
     },
     packages: {
-        'app'                              : {main: 'cross-route-search/main', defaultExtension: 'ts'},
+        'app'                              : {main: 'router/master-detail', defaultExtension: 'ts'},
         'rxjs'                             : {main: 'Rx'},
         '@angular/core'                    : {main: 'core.umd.min.js'},
         '@angular/common'                  : {main: 'common.umd.min.js'},

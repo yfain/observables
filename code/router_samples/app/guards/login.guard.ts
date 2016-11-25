@@ -13,7 +13,7 @@ export class LoginGuard implements CanActivate{
 
     private checkIfLoggedIn(): boolean{
 
-        // A call to thw actual login service would go here
+        // A call to the actual login service would go here
         // For now we'll just randomly return true or false
 
         let loggedIn:boolean = Math.random() <0.5;

@@ -5,6 +5,8 @@ import 'rxjs/add/operator/map';
 import {BidService} from "./bid-service";
 import {Bid} from "./bid";
 
+
+
 @Component({
   selector: 'subscriber',
   providers: [ BidService ],

@@ -24,7 +24,7 @@ Rx.Observable.from(beers)
     .subscribe(
         beer => console.log(beer),
         err => console.error(err),
-        () => console.log("The sream is over")
+        () => console.log("Streaming is over")
 );
 
 
