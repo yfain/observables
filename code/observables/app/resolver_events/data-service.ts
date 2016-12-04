@@ -3,6 +3,7 @@ import {Http} from "@angular/http";
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/do';
 import { Observable} from "rxjs/Observable";
+import 'rxjs/add/observable/from';
 
 @Injectable()
 export class DataService{
@@ -11,9 +12,9 @@ export class DataService{
 
     constructor(private http:Http){}
 
-    loadData(): Observable | any {
+    loadData(): Observable {
         if (this.mydata){
-            return this.mydata;  // return from cache
+            return Observable.from(this.mydata);  // return from cache
         } else
         {
             return this.http.get("./45MB_DATA.json")
