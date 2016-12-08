@@ -10,15 +10,17 @@ import {StateService} from "../services/state-service";
     styles: ['.ebay {background: cyan}']
 })
 export class EbayComponent {
-    
+
     searchFor: string;
 
-    constructor(state: StateService){
+    constructor(private state: StateService){
 
-        this.searchFor = state.searchCriteria;
-        
         state.stateEvent
             .subscribe(event => this.searchFor = event);
 
+    }
+
+    ngOnInit(){
+        this.searchFor = this.state.searchCriteria;
     }
 }
