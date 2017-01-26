@@ -11,7 +11,7 @@ System.config({
     '@angular/*': {'format': 'cjs'}
   },
   packages: {
-    'app'                              : {main: 'observable-events', defaultExtension: 'ts'},
+    'app'                              : {main: 'observable-events-http', defaultExtension: 'ts'},
     'rxjs'                             : {main: 'Rx'},
     '@angular/core'                    : {main: 'bundles/core.umd.min.js'},
     '@angular/common'                  : {main: 'bundles/common.umd.min.js'},

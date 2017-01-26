@@ -2,12 +2,7 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import {NgModule, Component, ElementRef, ViewChild}      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-
 import 'rxjs/add/operator/sample';
-import 'rxjs/add/operator/map';
-import 'rxjs/add/observable/interval';
-import 'rxjs/add/observable/fromEvent';
-import 'rxjs/add/operator/share';
 import {Observable} from "rxjs/Observable";
 
 @Component({

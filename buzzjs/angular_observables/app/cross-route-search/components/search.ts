@@ -8,7 +8,7 @@ import {StateService} from "../services/state-service";
 @Component({
     selector: "search",
     template: `
-       <h2>Find products anywhere</h2>
+       <h2>Top-level component</h2>
       <input type="text" placeholder="Enter product" [formControl]="searchInput">
     `
 })
