@@ -59,7 +59,7 @@ function generateBid (): string {
 }
 
  function broadcast(bid: string){
-    //wsServer.clients
+
         subscribers
         .forEach(client => {
             if (client.readyState == OPEN) {
