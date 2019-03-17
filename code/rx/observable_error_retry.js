@@ -10,7 +10,7 @@ const beers$ = Rx.Observable.create( observer => {
     ];
 
         observer.next("dddd");
-/**/    observer.next(beers.shift()); // send next beer and remove it from array
+        observer.next(beers.shift()); // send next beer and remove it from array
 
 /*
         if (beers.length < Math.random() * 5) {    // Generate a random error

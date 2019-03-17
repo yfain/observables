@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="03f57121-2dfc-43f5-9a05-d70429fd0410" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buzzjs/rx/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Observables_DevNexus.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../http_websocket_samples/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../http_websocket_samples/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../http_websocket_samples/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../http_websocket_samples/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/.idea/inter_comp_communications.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/binding/callback-binding.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/binding/input-property-binding.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/binding/native-event-bubbling.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/binding/output-property-binding.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/child_api/exposing-child-api.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/comp_lifecycle/[not in use] on-after-view-checked.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/comp_lifecycle/[not in use] on-push-manual-cd.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/comp_lifecycle/[not in use] on-push.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/comp_lifecycle/on-changes-with-param.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/comp_lifecycle/on-init.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/cross-route-search/components/amazon.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/cross-route-search/components/ebay.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/cross-route-search/components/search.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/cross-route-search/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/cross-route-search/services/state-service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/mediator/mediator.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/mediator/order.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/mediator/price-quoter.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/mediator/stock.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/projection/basic-ng-content.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/projection/ng-content-selector-if.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/projection/ng-content-selector.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/router/components/product-detail.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/router/master-detail.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/hello-world-ts-jquery/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/hello-world-ts-jquery/.idea/hello-world-ts-jquery.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/hello-world-ts-jquery/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/hello-world-ts-jquery/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/hello-world-ts-jquery/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/hello-world-ts-jquery/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/systemjs.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../observables/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../observables/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../observables/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rx/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rx/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rx/drinks_flat.js" beforeDir="false" afterPath="$PROJECT_DIR$/../rx/drinks_flat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rx/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../rx/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rx/observable_beer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rx/observable_create.js" beforeDir="false" afterPath="$PROJECT_DIR$/../rx/observable_create.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rx/observable_error_retry.js" beforeDir="false" afterPath="$PROJECT_DIR$/../rx/observable_error_retry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rx/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../rx/package.json" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/dist/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/mediator-service-subject/amazon.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="36" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#247#298#0" expanded="true" />
+                <marker date="1526467199000" expanded="true" signature="445:556" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/mediator-service-subject/ebay.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+                <marker date="1526467373000" expanded="true" signature="192:279" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/projection1/child.component.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/projection1/app.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/projection2/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/projection2/app.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/environments/environment.prod.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/environments/environment.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/projection2/child.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/mediator-service-subject/state.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.angular-cli.json" />
+        <option value="$PROJECT_DIR$/src/app/mediator-parent/istock.ts" />
+        <option value="$PROJECT_DIR$/src/app/mediator-parent/order.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/output/app.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/input/app.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/mediator-service-subject/search.component.ts" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/app/mediator-service-subject/state.service.ts" />
+        <option value="$PROJECT_DIR$/src/app/mediator-service-subject/amazon.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/mediator-service-subject/ebay.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/mediator-parent/price.quoter.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/output/price.quoter.component.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="829" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="inter-component" type="b2602c69:ProjectViewProjectNode" />
+              <item name="inter-component" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="inter-component" type="b2602c69:ProjectViewProjectNode" />
+              <item name="inter-component" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="inter-component" type="b2602c69:ProjectViewProjectNode" />
+              <item name="inter-component" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="inter-component" type="b2602c69:ProjectViewProjectNode" />
+              <item name="inter-component" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="mediator-service-subject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="inter-component" type="b2602c69:ProjectViewProjectNode" />
+              <item name="inter-component" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="projection2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="inter-component" type="b2602c69:ProjectViewProjectNode" />
+              <item name="inter-component" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="environments" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.prettier" value="" />
+    <property name="node.js.selected.package.tslint" value="$PROJECT_DIR$/node_modules/tslint" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.tslint" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03f57121-2dfc-43f5-9a05-d70429fd0410" name="Default" comment="" />
+      <created>1513777264530</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1513777264530</updated>
+      <workItem from="1513777266262" duration="821000" />
+      <workItem from="1514210312750" duration="478000" />
+      <workItem from="1514642816173" duration="14000" />
+      <workItem from="1518808283108" duration="2341000" />
+      <workItem from="1519124866181" duration="1017000" />
+      <workItem from="1519126086161" duration="1378000" />
+      <workItem from="1519210740488" duration="19000" />
+      <workItem from="1523405948700" duration="1087000" />
+      <workItem from="1526466492393" duration="2031000" />
+      <workItem from="1543862373530" duration="538000" />
+      <workItem from="1543862966129" duration="3153000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12877000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="829" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28047922" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.20759837" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/mediator-service-subject/amazon.component.ts</url>
+          <line>5</line>
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main-lifecycle.ts" />
+    <entry file="file://$PROJECT_DIR$/src/main-renderer.ts" />
+    <entry file="file://$PROJECT_DIR$/.angular-cli.json" />
+    <entry file="file://$PROJECT_DIR$/src/app/output/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/output/price.quoter.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#62#0" expanded="true" />
+            <marker date="1526467720000" expanded="true" signature="199:337" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="793" column="1" selection-start-line="793" selection-start-column="1" selection-end-line="793" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!block;n#input#0;n#!!block;n#projects#0;n#!!top" />
+            <element signature="n#!!block;n#input-e2e#0;n#!!block;n#projects#0;n#!!top" />
+            <element signature="n#!!block;n#output#0;n#!!block;n#projects#0;n#!!top" />
+            <element signature="n#!!block;n#output-e2e#0;n#!!block;n#projects#0;n#!!top" />
+            <element signature="n#!!block;n#mediator-parent#0;n#!!block;n#projects#0;n#!!top" />
+            <element signature="n#!!block;n#mediator-parent-e2e#0;n#!!block;n#projects#0;n#!!top" />
+            <element signature="n#!!block;n#mediator-service#0;n#!!block;n#projects#0;n#!!top" />
+            <element signature="n#!!block;n#mediator-service-e2e#0;n#!!block;n#projects#0;n#!!top" />
+            <element signature="n#!!block;n#projection1#0;n#!!block;n#projects#0;n#!!top" />
+            <element signature="n#!!block;n#projection1-e2e#0;n#!!block;n#projects#0;n#!!top" />
+            <element signature="n#!!block;n#projection2#0;n#!!block;n#projects#0;n#!!top" />
+            <element signature="n#!!block;n#projection2-e2e#0;n#!!block;n#projects#0;n#!!top" />
+            <element signature="n#!!block;n#childapi#0;n#!!block;n#projects#0;n#!!top" />
+            <element signature="n#!!block;n#childapi-e2e#0;n#!!block;n#projects#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/input/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/mediator-parent/istock.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/mediator-parent/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/mediator-parent/price.quoter.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" selection-start-line="27" selection-end-line="30" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#62#0" expanded="true" />
+            <marker date="1526467685000" expanded="true" signature="200:344" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/mediator-parent/order.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/mediator-service-subject/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/mediator-service-subject/search.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/mediator-service-subject/amazon.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="36" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#247#298#0" expanded="true" />
+            <marker date="1526467199000" expanded="true" signature="445:556" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/mediator-service-subject/state.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/mediator-service-subject/ebay.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <marker date="1526467373000" expanded="true" signature="192:279" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/projection1/child.component.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/projection1/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/projection2/child.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/projection2/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/projection2/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/environments/environment.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/environments/environment.prod.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

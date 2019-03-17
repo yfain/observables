@@ -1,0 +1,18 @@
+Download the workshop handouts from http://bit.ly/2ymLCrf
+
+Install the following software:
+
+1.The current version of Node.js: https://nodejs.org/en/download
+
+2. The latest version of Angular CLI:
+
+npm uninstall @angular/cli -g
+npm i @angular/cli -g 
+ng -v  // should print the version 1.4.3
+
+After installing Angular CLI, make sure you can generate a new project: ng new hello-world
+
+3. An IDE: either WebStorm or Visual Studio Code
+
+4. Chrome browser
+

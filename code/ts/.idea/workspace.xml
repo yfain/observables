@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="919774a7-c86a-4508-9a01-a00b56d7f6aa" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../inter-component/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../buzzjs/rx/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Observables_DevNexus.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../http_websocket_samples/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../http_websocket_samples/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../http_websocket_samples/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../http_websocket_samples/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/.idea/inter_comp_communications.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/binding/callback-binding.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/binding/input-property-binding.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/binding/native-event-bubbling.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/binding/output-property-binding.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/child_api/exposing-child-api.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/comp_lifecycle/[not in use] on-after-view-checked.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/comp_lifecycle/[not in use] on-push-manual-cd.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/comp_lifecycle/[not in use] on-push.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/comp_lifecycle/on-changes-with-param.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/comp_lifecycle/on-init.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/cross-route-search/components/amazon.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/cross-route-search/components/ebay.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/cross-route-search/components/search.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/cross-route-search/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/cross-route-search/services/state-service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/mediator/mediator.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/mediator/order.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/mediator/price-quoter.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/mediator/stock.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/projection/basic-ng-content.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/projection/ng-content-selector-if.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/projection/ng-content-selector.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/router/components/product-detail.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/app/router/master-detail.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/hello-world-ts-jquery/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/hello-world-ts-jquery/.idea/hello-world-ts-jquery.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/hello-world-ts-jquery/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/hello-world-ts-jquery/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/hello-world-ts-jquery/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/hello-world-ts-jquery/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/systemjs.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inter_comp_communications/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../observables/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../observables/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../observables/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rx/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rx/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rx/drinks_flat.js" beforeDir="false" afterPath="$PROJECT_DIR$/../rx/drinks_flat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rx/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../rx/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rx/observable_beer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rx/observable_create.js" beforeDir="false" afterPath="$PROJECT_DIR$/../rx/observable_create.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rx/observable_error_retry.js" beforeDir="false" afterPath="$PROJECT_DIR$/../rx/observable_error_retry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rx/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../rx/package.json" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/union.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/async-await/async-await.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="855">
+              <caret line="45" column="61" selection-start-line="45" selection-start-column="61" selection-end-line="45" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/interface-as-type.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/interface-implements.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/generics.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/generics_comparable.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="42" selection-end-line="42" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/decorators/whoami.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="17" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/decorators/uicomponent.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="7" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tsconfig.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="27" />
+              <folding>
+                <marker date="1506434431000" expanded="true" signature="26:515" ph="{&quot;outDir&quot;: &quot;./dist&quot;...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/dist/hello.js" />
+        <option value="$PROJECT_DIR$/src/hello.ts" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/dist/imports/ipayable.js" />
+        <option value="$PROJECT_DIR$/src/do-taxes.ts" />
+        <option value="$PROJECT_DIR$/src/tax/calcTax.ts" />
+        <option value="$PROJECT_DIR$/src/async-await/callbacks.js" />
+        <option value="$PROJECT_DIR$/src/async-await/async-awwait.ts" />
+        <option value="$PROJECT_DIR$/src/async-await/promises.js" />
+        <option value="$PROJECT_DIR$/src/async-await/async-await.ts" />
+        <option value="$PROJECT_DIR$/src/hello-world-ts-jquery/main.ts" />
+        <option value="$PROJECT_DIR$/src/intersection.ts" />
+        <option value="$PROJECT_DIR$/src/decorators/whoami.ts" />
+        <option value="$PROJECT_DIR$/src/decorators/uicomponent.ts" />
+        <option value="$PROJECT_DIR$/src/fatArrow.ts" />
+        <option value="$PROJECT_DIR$/Readme.txt" />
+        <option value="$PROJECT_DIR$/src/interface-implements.ts" />
+        <option value="$PROJECT_DIR$/src/abstract-class.ts" />
+        <option value="$PROJECT_DIR$/src/classes-namespaces.ts" />
+        <option value="$PROJECT_DIR$/src/implement-class.ts" />
+        <option value="$PROJECT_DIR$/src/async-await/promises.ts" />
+        <option value="$PROJECT_DIR$/tsconfig.json" />
+        <option value="$PROJECT_DIR$/src/interface-as-type.ts" />
+        <option value="$PROJECT_DIR$/src/generics_comparable.ts" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/generics.ts" />
+        <option value="$PROJECT_DIR$/src/union.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="809" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ts" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="decorators" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.path.for.package.tslint" value="$USER_HOME$/.nvm/versions/node/v7.1.0/bin/node" />
+    <property name="node.js.selected.package.prettier" value="" />
+    <property name="node.js.selected.package.tslint" value="$PROJECT_DIR$/node_modules/tslint" />
+    <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v6.7.0/bin/node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="typescript-compiler-editor-notification" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/imports" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ts/src/hello-world-ts-jquery/index.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="async-await.js" type="NodeJSConfigurationType" temporary="true" path-to-js-file="async-await.js" working-dir="$PROJECT_DIR$/dist/async-await">
+      <method v="2" />
+    </configuration>
+    <configuration name="callbacks.js" type="NodeJSConfigurationType" temporary="true" path-to-js-file="callbacks.js" working-dir="$PROJECT_DIR$/src/async-await">
+      <method v="2" />
+    </configuration>
+    <configuration name="do-taxes.js" type="NodeJSConfigurationType" temporary="true" path-to-js-file="do-taxes.js" working-dir="$PROJECT_DIR$/dist">
+      <method v="2" />
+    </configuration>
+    <configuration name="promises.js" type="NodeJSConfigurationType" temporary="true" path-to-js-file="promises.js" working-dir="$PROJECT_DIR$/src/async-await">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.index.html (1)" />
+      <item itemvalue="Node.js.do-taxes.js" />
+      <item itemvalue="Node.js.callbacks.js" />
+      <item itemvalue="Node.js.promises.js" />
+      <item itemvalue="Node.js.async-await.js" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="Node.js.async-await.js" />
+        <item itemvalue="Node.js.promises.js" />
+        <item itemvalue="Node.js.callbacks.js" />
+        <item itemvalue="Node.js.do-taxes.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="919774a7-c86a-4508-9a01-a00b56d7f6aa" name="Default" comment="" />
+      <created>1492277523783</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1492277523783</updated>
+      <workItem from="1492277525183" duration="5325000" />
+      <workItem from="1492595703196" duration="5410000" />
+      <workItem from="1492718227093" duration="6894000" />
+      <workItem from="1494279148409" duration="468000" />
+      <workItem from="1494421174842" duration="1350000" />
+      <workItem from="1496665788691" duration="4872000" />
+      <workItem from="1496775046528" duration="8314000" />
+      <workItem from="1506422706567" duration="4346000" />
+      <workItem from="1525852777509" duration="4275000" />
+      <workItem from="1543129792272" duration="2825000" />
+      <workItem from="1543352327819" duration="4000" />
+      <workItem from="1543874930617" duration="1703000" />
+      <workItem from="1544375962885" duration="492000" />
+      <workItem from="1544804286924" duration="22000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="46300000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="809" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20084566" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30543318" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.30404463" />
+      <window_info anchor="bottom" id="TypeScript" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28222656" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30543318" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.4227941" />
+      <window_info anchor="bottom" id="TypeScript" order="10" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/tslint.json" />
+    <entry file="file://$PROJECT_DIR$/dist/interface-as-type.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/imports/ipayable.ts" />
+    <entry file="file://$PROJECT_DIR$/src/imports/employee.ts" />
+    <entry file="file://$PROJECT_DIR$/dist/imports/ipayable.js" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/dist/calcTax.js" />
+    <entry file="file://$PROJECT_DIR$/src/tax/calcTax.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/async-await/async-await.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/intersection.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/async-await/callbacks.js" />
+    <entry file="file://$PROJECT_DIR$/src/async-await/promises.js" />
+    <entry file="file://$PROJECT_DIR$/tslint.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/tslint/lib/rules/importBlacklistRule.d.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/tslint/lib/configs/recommended.d.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/decorators/whoami.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/getters.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/do-taxes.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/do-taxes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/tax/calcTax.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/destructuring.d.ts" />
+    <entry file="file://$PROJECT_DIR$/dist/fatArrow.d.ts" />
+    <entry file="file://$PROJECT_DIR$/dist/generics.d.ts" />
+    <entry file="file://$PROJECT_DIR$/dist/generics_comparable.d.ts" />
+    <entry file="file://$PROJECT_DIR$/src/abstract-class.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mixins.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes-namespaces.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/implement-class.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/async-await/callbacks.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/async-await/promises.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="45" column="49" selection-start-line="45" selection-end-line="45" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hello-world-ts-jquery/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hello-world-ts-jquery/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fatArrow.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/abstract-class.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/hello.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/getters.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/generics_comparable.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/generics.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/union.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/union.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/async-await/async-await.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="45" column="61" selection-start-line="45" selection-start-column="61" selection-end-line="45" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interface-as-type.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interface-implements.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/generics.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/decorators/whoami.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/decorators/uicomponent.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="27" />
+          <folding>
+            <marker date="1506434431000" expanded="true" signature="26:515" ph="{&quot;outDir&quot;: &quot;./dist&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/generics_comparable.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="42" selection-end-line="42" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

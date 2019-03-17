@@ -1,3 +1,5 @@
+let {Observable} = require('rxjs/Observable');
+
 function getData(){
 
     var beers = [
@@ -9,7 +11,7 @@ function getData(){
     ];
 
         
-    return Rx.Observable.create( observer => {
+    return Observable.create( observer => {
 
               beers.forEach( beer => observer.next(beer));
 
@@ -19,9 +21,8 @@ function getData(){
 }
 
 getData()
-     .map(beer => beer.name + ", " + beer.country)
      .subscribe(
-         beer => console.log("Subscriber got " + beer),
+         beer => console.log("Subscriber got " + beer.name),
          error => console.err(error),
             () => console.log("The stream is over")
 );

@@ -1,3 +1,5 @@
+let Rx = require('rxjs/Rx');  // Importing the entire library is bad idea
+
 function getDrinks() {
 
     let beers = Rx.Observable.from([
@@ -25,7 +27,7 @@ function getDrinks() {
 
 // We want to unload each pallet and print the into about each case with drinks
 
-// Nested subscribtions solution
+// Nested subscribtions solution - bad
 console.info("*** Unloading drinks with nested subscribtions ***\n");
 
 getDrinks()
