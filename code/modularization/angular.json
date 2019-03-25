@@ -324,6 +324,131 @@
           }
         }
       }
+    },
+    "lazy-no-router": {
+      "root": "projects/lazy-no-router/",
+      "sourceRoot": "projects/lazy-no-router/src",
+      "projectType": "application",
+      "prefix": "app",
+      "schematics": {
+        "@schematics/angular:class": {
+          "skipTests": true
+        },
+        "@schematics/angular:component": {
+          "skipTests": true
+        },
+        "@schematics/angular:directive": {
+          "skipTests": true
+        },
+        "@schematics/angular:guard": {
+          "skipTests": true
+        },
+        "@schematics/angular:module": {
+          "skipTests": true
+        },
+        "@schematics/angular:pipe": {
+          "skipTests": true
+        },
+        "@schematics/angular:service": {
+          "skipTests": true
+        }
+      },
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "lazyModules": [
+              "projects/lazy-no-router/src/app/luxury/luxury.module"
+            ],
+            "outputPath": "dist/lazy-no-router",
+            "index": "projects/lazy-no-router/src/index.html",
+            "main": "projects/lazy-no-router/src/main.ts",
+            "polyfills": "projects/lazy-no-router/src/polyfills.ts",
+            "tsConfig": "projects/lazy-no-router/tsconfig.app.json",
+            "assets": [
+              "projects/lazy-no-router/src/favicon.ico",
+              "projects/lazy-no-router/src/assets"
+            ],
+            "styles": [
+              "projects/lazy-no-router/src/styles.css"
+            ],
+            "scripts": [],
+            "es5BrowserSupport": true
+          },
+          "configurations": {
+            "production": {
+              "fileReplacements": [
+                {
+                  "replace": "projects/lazy-no-router/src/environments/environment.ts",
+                  "with": "projects/lazy-no-router/src/environments/environment.prod.ts"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "aot": true,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
+                }
+              ]
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "lazy-no-router:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "lazy-no-router:build:production"
+            }
+          }
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "lazy-no-router:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/lazy-no-router/src/test.ts",
+            "polyfills": "projects/lazy-no-router/src/polyfills.ts",
+            "tsConfig": "projects/lazy-no-router/tsconfig.spec.json",
+            "karmaConfig": "projects/lazy-no-router/karma.conf.js",
+            "styles": [
+              "projects/lazy-no-router/src/styles.css"
+            ],
+            "scripts": [],
+            "assets": [
+              "projects/lazy-no-router/src/favicon.ico",
+              "projects/lazy-no-router/src/assets"
+            ]
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/lazy-no-router/tsconfig.app.json",
+              "projects/lazy-no-router/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "defaultProject": "hello-modules"
