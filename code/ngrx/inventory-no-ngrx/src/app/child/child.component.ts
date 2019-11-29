@@ -1,9 +1,9 @@
 import { Component} from '@angular/core';
-import {InventoryService} from "../inventory.service";
+import {InventoryService} from '../inventory.service';
 
 @Component({
   selector: 'app-child',
-  template: `      
+  template: `
     <h2>Child component</h2>
     <div *ngIf="state$ | async as stateObject">
         <p>Total quantity: {{stateObject.productQuantity}}
@@ -15,5 +15,9 @@ import {InventoryService} from "../inventory.service";
 export class ChildComponent  {
 
     state$ = this.inventoryService.getState();
-    constructor(private inventoryService: InventoryService) {}
+    constructor(private inventoryService: InventoryService) {
+      setTimeout(() => this.inventoryService.addProducts(1),
+        10000);
+
+    }
 }

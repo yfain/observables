@@ -31,3 +31,10 @@ export function productReducer(state: State = initialState, action: ProductActio
             return state;
     }
 }
+
+
+let someNumber: number;
+
+
+
+

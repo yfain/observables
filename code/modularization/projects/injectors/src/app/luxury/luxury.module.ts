@@ -7,7 +7,7 @@ import {LuxuryService} from './luxury.service';
 @NgModule({
     imports: [ CommonModule,
         RouterModule.forChild([
-        {path: '', component: LuxuryComponent}
+                             {path: '', component: LuxuryComponent}
     ]) ],
     providers: [LuxuryService],
     declarations: [ LuxuryComponent ]

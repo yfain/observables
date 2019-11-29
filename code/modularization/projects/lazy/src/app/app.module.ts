@@ -13,8 +13,8 @@ import {CustomPreloadingStrategy} from './custom.preloader';
     RouterModule.forRoot([
       {path: '',        component: HomeComponent},
       {path: 'product', component: ProductDetailComponent},
-      {path: 'luxury', loadChildren: './luxury.module#LuxuryModule', data: {preloadme: true} } ]
-//      {path: 'luxury', loadChildren: './luxury.module#LuxuryModule', data: {preloadme: true} } ]
+      {path: 'luxury', loadChildren: () => import('./luxury.module').then(m => m.LuxuryModule) } ]
+//      , data: {preloadme: true}  } ]
 //            , {preloadingStrategy: CustomPreloadingStrategy}
       )
   ],

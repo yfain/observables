@@ -10,7 +10,7 @@ import {ShippingModule} from './shipping/shipping.module';
     RouterModule.forRoot([
       {path: '',        component: HomeComponent},
       {path: 'shipping', loadChildren: () => ShippingModule},  // eager
-      {path: 'luxury', loadChildren: './luxury/luxury.module#LuxuryModule'} ] // lazy
+      {path: 'luxury', loadChildren: () => import('./luxury/luxury.module').then(m => m.LuxuryModule)} ] // lazy
       )
   ],
   declarations: [ AppComponent, HomeComponent],
