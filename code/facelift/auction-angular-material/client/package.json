@@ -30,7 +30,7 @@
     "zone.js": "^0.8.4",
 
     "bootstrap": "^3.3.6",
-    "jquery": "^2.2.2"
+    "jquery": "^3.5.0"
   },
   "devDependencies": {
     "@angular/cli": "^1.0.4",
