@@ -8,7 +8,7 @@
     "start": "tsc"
   },
   "dependencies": {
-    "express": "^4.13.3",
+    "express": "^4.17.3",
     "ws": "^1.0.1"
   },
   "devDependencies": {
